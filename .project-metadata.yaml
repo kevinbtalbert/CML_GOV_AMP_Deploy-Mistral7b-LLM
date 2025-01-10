@@ -31,7 +31,7 @@ runtimes:
 tasks:
   - type: run_session
     name: Deploy NVIDIA Toolkit
-    script: 0_session-install-deps/install_dependencies.py
+    script: install-drivers.py
     short_summary: Install Dependencies
     kernel: python3
     cpu: 2
